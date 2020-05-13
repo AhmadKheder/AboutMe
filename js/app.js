@@ -1,33 +1,33 @@
 'use strict'
 var pionts = 0;
-// var youName = prompt('what is your name', 'ur name');// to ask the user about his/her name
-// alert(`Hey ${youName}, lets guess some info about me  `);
-// //1
-// var smart = prompt("Do you think I'm a smart one ?");
-// myFriend(smart, '1');
+var youName = prompt('what is your name', 'ur name');// to ask the user about his/her name
+alert(`Hey ${youName}, lets guess some info about me  `);
+//1
+var smart = prompt("Do you think I'm a smart one ?");
+myFriend(smart, '1');
 
-// //2
-// var coffee = prompt("Do I love coffee?");
+//2
+var coffee = prompt("Do I love coffee?");
 
-// myFriend(coffee, '2');
+myFriend(coffee, '2');
 
-// //3
-// var soos = prompt("Do I love 3erq soos?");
-// myFriend(soos , '3');
+//3
+var soos = prompt("Do I love 3erq soos?");
+myFriend(soos , '3');
 
-// //4
-// var smoke = prompt("Do I smoke?");
-// myFriend(smoke ,'4');
+//4
+var smoke = prompt("Do I smoke?");
+myFriend(smoke ,'4');
 
-// //5
-// var hunger = prompt("Am I hungry?");
-// myFriend(hunger,'5');
+//5
+var hunger = prompt("Am I hungry?");
+myFriend(hunger,'5');
 
-//q6 call
-// old();
-//q7 call
+// q6 call
+old();
+// q7 call
 
-
+guessNumber();
 
 //q:6
 function old(){
